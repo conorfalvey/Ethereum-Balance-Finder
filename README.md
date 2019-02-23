@@ -6,7 +6,7 @@ Node.js backend to retrieve balance of Ethereum wallet
 
 Clone repository into folder and initialize node 
 ```
-node init
+npm init
 ```
 
 ### Prerequisites
