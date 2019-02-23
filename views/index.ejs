@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BitBroker Code Sample</title>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+        <form action="/" method="post">
+          <input name="walletID" type="text" placeholder="Enter a Wallet ID" required>
+          <input type="submit" value="Get Balance">
+        </form>
+        <% if(balance !== null){ %>
+          <p><%= balance %></p>
+        <% } %>
+
+        <% if(error !== null){ %>
+          <p><%= error %></p>
+        <% } %>
+      </fieldset>
+    </div>
+  </body>
+</html>
