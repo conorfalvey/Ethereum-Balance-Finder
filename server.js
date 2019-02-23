@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const Web3 = require('web3');
-const web3 = new Web3('https://mainnet.infura.io/v3/593ad5eac4e148c3a623d512d0cd52d9');
+const web3 = new Web3('https://mainnet.infura.io/v3/********************************'); //key hidden for account privacy
 const app = express();
 
 app.use(express.static('public'));
