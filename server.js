@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 })
 
 app.listen(3000, function () {
-  console.log('BitBroker Code Sample listening on port 3000')
+  console.log('Ethereum Balance Finder listening on port 3000')
 })
 
 app.post('/', function (req, res) {
